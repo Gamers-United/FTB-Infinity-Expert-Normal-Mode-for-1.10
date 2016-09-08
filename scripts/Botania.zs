@@ -29,33 +29,21 @@ recipes.addShaped(<Botania:livingwood:5>, [[<ore:nuggetTerrasteel>, <ore:dustGlo
 
 
 # -- Mana Lenses
-recipes.remove(<Botania:lens>);
-recipes.addShaped(<Botania:lens>, [[<ore:nuggetManasteel>, <ore:ingotManasteel>, <ore:nuggetManasteel>], [<ore:ingotManasteel>, <witchery:ingredient:92>, <ore:ingotManasteel>], [<ore:nuggetManasteel>, <ore:ingotManasteel>, <ore:nuggetManasteel>]]);
+
 recipes.remove(<Botania:lens:10>);
 recipes.addShaped(<Botania:lens:10>, [[<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>], [<ore:ingotGold>, <Botania:lens>, <ore:ingotGold>], [<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>]]);
 
 # -- Redstring
-recipes.remove(<Botania:manaResource:12>);
-recipes.addShapeless(<Botania:manaResource:12>, [<ore:manaString>, <ore:elvenPixieDust>, <ore:bEnderAirBottle>, <ore:redstoneRoot>, <witchery:ingredient:40>, <Thaumcraft:ItemZombieBrain>]);
+
 
 # - Spark Augments
-recipes.remove(<Botania:sparkUpgrade:*>);
-recipes.addShaped(<Botania:sparkUpgrade>, [[null, <ore:elvenPixieDust>], [<ore:ingotManasteel>, <AWWayofTime:imbuedSlate>, <ore:ingotManasteel>], [null, <ore:runeWaterB>]]);
-recipes.addShaped(<Botania:sparkUpgrade:1>, [[null, <ore:elvenPixieDust>], [<ore:ingotManasteel>, <AWWayofTime:imbuedSlate>, <ore:ingotManasteel>], [null, <ore:runeFireB>]]);
-recipes.addShaped(<Botania:sparkUpgrade:2>, [[null, <ore:elvenPixieDust>], [<ore:ingotManasteel>, <AWWayofTime:imbuedSlate>, <ore:ingotManasteel>], [null, <ore:runeEarthB>]]);
-recipes.addShaped(<Botania:sparkUpgrade:3>, [[null, <ore:elvenPixieDust>], [<ore:ingotManasteel>, <AWWayofTime:imbuedSlate>, <ore:ingotManasteel>], [null, <ore:runeAirB>]]);
 
 # -- Pylons
 recipes.remove(<Botania:pylon>);
 recipes.addShaped(<Botania:pylon>, [[<ore:nuggetGold>, <ore:ingotGold>, <ore:nuggetGold>], [<ore:ingotManasteel>, <ore:manaDiamond>, <ore:ingotManasteel>], [<ore:nuggetGold>, <ore:ingotGold>, <ore:nuggetGold>]]);
-recipes.remove(<Botania:pylon:1>);
-recipes.addShaped(<Botania:pylon:1>, [[<ore:nuggetManasteel>, <witchery:ingredient:67>, <ore:nuggetManasteel>], [<ore:ingotTerrasteel>, <Botania:pylon>, <ore:ingotTerrasteel>], [<ore:nuggetManasteel>, <ore:pearlEnderEye>, <ore:nuggetManasteel>]]);
+
 
 # -- Catalysts
-recipes.remove(<Botania:alchemyCatalyst>);
-recipes.addShaped(<Botania:alchemyCatalyst>, [[<ore:livingrock>, <witchery:chalkheart>, <ore:livingrock>], [<AWWayofTime:blockWritingTable>, <Thaumcraft:ItemResource:14>, <AWWayofTime:blockWritingTable>], [<ore:livingrock>, <ore:blockBlaze>, <ore:livingrock>]]);
-recipes.remove(<Botania:conjurationCatalyst>);
-recipes.addShaped(<Botania:conjurationCatalyst>, [[<ore:livingrock>, <witchery:ingredient:130>, <ore:livingrock>], [<Botania:pylon:1>, <Botania:alchemyCatalyst>, <Botania:pylon:1>], [<ore:livingrock>, <witchery:ingredient:113>, <ore:livingrock>]]);
 
 # - Runes
 # -- Tier 1
@@ -71,30 +59,8 @@ mods.botania.RuneAltar.removeRecipe(<Botania:rune:8>);
 mods.botania.RuneAltar.addRecipe(<Botania:rune:8>, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:manaDiamond>, <ore:manaPearl>, <Botania:quartz:1>, <Thaumcraft:ItemShard:6>], 8500);
 
 # -- Tier 2
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:4>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:4>, [<ore:runeWaterB>, <ore:runeFireB>, <witchery:witchsapling>, <witchery:witchsapling:1>, <witchery:witchsapling:2>, <minecraft:wheat>, <AWWayofTime:imbuedSlate>], 4000);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:5>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:5>, [<ore:runeEarthB>, <ore:runeAirB>, <ore:sand>, <ore:sand>, <ore:slimeball>, <ore:cropMelon>, <AWWayofTime:imbuedSlate>], 4000);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:6>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:6>, [<ore:runeFireB>, <ore:runeAirB>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <minecraft:spider_eye>, <AWWayofTime:imbuedSlate>], 4000);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:7>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <ore:blockSnow>, <ore:blockSnow>, <ore:blockWool>, <minecraft:cake>, <AWWayofTime:imbuedSlate>], 4000);
 
 # -- Tier 3
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:9>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:9>*2, [<ore:runeAirB>, <ore:runeSummerB>, <ore:manaDiamond>, <ore:manaDiamond>, <AWWayofTime:demonicSlate>], 6500);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:10>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:10>*2, [<ore:runeFireB>, <ore:runeWinterB>, <ore:manaDiamond>, <ore:manaDiamond>, <AWWayofTime:demonicSlate>], 6500);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:11>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:11>*2, [<ore:runeWaterB>, <ore:runeSpringB>, <ore:manaDiamond>, <ore:manaDiamond>, <AWWayofTime:demonicSlate>], 6500);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:12>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:12>*2, [<ore:runeAirB>, <ore:runeAutumnB>, <ore:manaDiamond>, <ore:manaDiamond>, <AWWayofTime:demonicSlate>], 6500);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:13>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:13>*2, [<ore:runeEarthB>, <ore:runeWinterB>, <ore:manaDiamond>, <ore:manaDiamond>, <AWWayofTime:demonicSlate>], 6500);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:14>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:14>*2, [<ore:runeWaterB>, <ore:runeWinterB>, <ore:manaDiamond>, <ore:manaDiamond>, <AWWayofTime:demonicSlate>], 6500);
-mods.botania.RuneAltar.removeRecipe(<Botania:rune:15>);
-mods.botania.RuneAltar.addRecipe(<Botania:rune:15>*2, [<ore:runeFireB>, <ore:runeSummerB>, <ore:manaDiamond>, <ore:manaDiamond>, <AWWayofTime:demonicSlate>], 6500);
 
 # - Equiptment
 # -- Manaweave Armor
@@ -118,22 +84,12 @@ recipes.remove(<Botania:manasteelBoots>);
 recipes.addShaped(<Botania:manasteelBoots>, [[<ore:ingotManasteel>, null, <ore:ingotManasteel>], [<ore:ingotManasteel>, <Botania:manaweaveBoots>, <ore:ingotManasteel>]]);
 
 # -- Mana Tablet
-recipes.remove(<Botania:manaTablet:1000>);
-mods.botania.RuneAltar.addRecipe(<Botania:manaTablet>.withTag({mana: 500000}), [<Thaumcraft:blockJar>, <AWWayofTime:reinforcedSlate>, <ore:runeAirB>, <ore:runeEarthB>, <ore:runeManaB>, <ore:runeFireB>, <ore:runeWaterB>, <AWWayofTime:reinforcedSlate>], 500000);
 
 # -- Baubles
-recipes.remove(<Botania:travelBelt>);
-recipes.addShaped(<Botania:travelBelt>, [[<ore:runeEarthB>, <witchery:ingredient:72>], [<witchery:ingredient:72>, <Thaumcraft:BootsTraveller>, <witchery:ingredient:72>], [<ore:ingotManasteel>, <witchery:ingredient:72>, <ore:runeAirB>]]);
-recipes.remove(<Botania:tinyPlanet>);
-recipes.addShaped(<Botania:tinyPlanet>, [[<ore:livingrock>, <Thaumcraft:blockCosmeticSolid:6>, <ore:livingrock>], [<Thaumcraft:blockCosmeticSolid:6>, <ore:manaPearl>, <Thaumcraft:blockCosmeticSolid:6>], [<ore:livingrock>, <Thaumcraft:blockCosmeticSolid:6>, <ore:livingrock>]]);
-recipes.remove(<Botania:icePendant>);
-recipes.addShaped(<Botania:icePendant>, [[<ore:runeWinterB>, <ore:manaString>], [<ore:manaString>, null, <ore:manaString>], [<ore:ingotManasteel>, <ore:manaString>, <ore:runeWaterB>]]);
-recipes.remove(<Botania:knockbackBelt>);
-recipes.addShaped(<Botania:knockbackBelt>, [[<ore:runeFireB>, <witchery:ingredient:72>], [<witchery:ingredient:72>, null, <witchery:ingredient:72>], [<ore:ingotManasteel>, <witchery:ingredient:72>, <ore:runeEarthB>]]);
 
 # - Miscellaneous
 # -- Creative Manapool - Yes! It's possible
-mods.thaumcraft.Infusion.addRecipe("RESEARCH", <ThermalExpansion:Tank>, [<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemEldritchObject:3>, <AWWayofTime:blockCrystal>, <AWWayofTime:blockCrystal>, <AWWayofTime:blockCrystal>, <AWWayofTime:blockCrystal>, <witchery:ingredient:130>, <witchery:ingredient:130>, <witchery:ingredient:130>, <witchery:ingredient:130>, <Botania:manaResource:14>, <Botania:manaResource:14>, <Botania:manaResource:14>, <Botania:manaResource:14>, <AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:imbuedSlate>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:27>, <Botania:rune>, <Botania:rune:1>, <Botania:rune:2>, <Botania:rune:3>, <Botania:rune:4>, <Botania:rune:5>, <Botania:rune:6>, <Botania:rune:7>, <Botania:rune:8>, <Botania:rune:9>, <Botania:rune:10>, <Botania:rune:11>, <Botania:rune:12>, <Botania:rune:13>, <Botania:rune:14>, <Botania:rune:15>, <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"})], "aer 512, terra 512, ignis 512, aqua 512, ordo 512, perditio 512", <Botania:pool:1>, 10);
+
 
 
 # - Unbalanced Items Removed
@@ -262,17 +218,7 @@ mods.botania.Lexicon.addCraftingPage("botania.page.manaGear8", "botania.entry.ma
 mods.botania.Lexicon.addCraftingPage("botania.page.manaGear9", "botania.entry.manaGear", 5, [<Botania:manasteelBoots>], [[[<ore:ingotManasteel>, null, <ore:ingotManasteel>], [<ore:ingotManasteel>, <Botania:manaweaveBoots>, <ore:ingotManasteel>]]]);
 
 # --- Mana Tablet
-mods.botania.Lexicon.removePage("botania.entry.manaTablet", 2);
-mods.botania.Lexicon.addRunePage("botania.page.manaTablet2", "botania.entry.manaTablet", 2, [<Botania:manaTablet>.withTag({mana: 500000})], [[<Thaumcraft:blockJar>, <AWWayofTime:reinforcedSlate>, <ore:runeAirB>, <ore:runeEarthB>, <ore:runeManaB>, <ore:runeFireB>, <ore:runeWaterB>, <AWWayofTime:reinforcedSlate>]], [500000]);
 
 # --- Baubles
-mods.botania.Lexicon.removePage("botania.entry.travelBelt", 1);
-mods.botania.Lexicon.addCraftingPage("botania.page.travelBelt1", "botania.entry.travelBelt", 1, [<Botania:travelBelt>], [[[<ore:runeEarthB>, <witchery:ingredient:72>], [<witchery:ingredient:72>, <Thaumcraft:BootsTraveller>, <witchery:ingredient:72>], [<ore:ingotManasteel>, <witchery:ingredient:72>, <ore:runeAirB>]]]);
-mods.botania.Lexicon.removePage("botania.entry.tinyPlanet", 1);
-mods.botania.Lexicon.addCraftingPage("botania.page.tinyPlanet1", "botania.entry.tinyPlanet", 1, [<Botania:tinyPlanet>], [[[<ore:livingrock>, <Thaumcraft:blockCosmeticSolid:6>, <ore:livingrock>], [<Thaumcraft:blockCosmeticSolid:6>, <ore:manaPearl>, <Thaumcraft:blockCosmeticSolid:6>], [<ore:livingrock>, <Thaumcraft:blockCosmeticSolid:6>, <ore:livingrock>]]]);
-mods.botania.Lexicon.removePage("botania.entry.icePendant", 1);
-mods.botania.Lexicon.addCraftingPage("botania.page.icePendant1", "botania.entry.icePendant", 1, [<Botania:icePendant>], [[[<ore:runeWinterB>, <ore:manaString>], [<ore:manaString>, null, <ore:manaString>], [<ore:ingotManasteel>, <ore:manaString>, <ore:runeWaterB>]]]);
-mods.botania.Lexicon.removePage("botania.entry.knockbackBelt", 1);
-mods.botania.Lexicon.addCraftingPage("botania.page.knockbackBelt1", "botania.entry.knockbackBelt", 1, [<Botania:knockbackBelt>], [[[<ore:runeFireB>, <witchery:ingredient:72>], [<witchery:ingredient:72>, null, <witchery:ingredient:72>], [<ore:ingotManasteel>, <witchery:ingredient:72>, <ore:runeEarthB>]]]);
 
 print("Initialized 'Botania.zs'");
