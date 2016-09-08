@@ -1,0 +1,1 @@
+# FTB-Infinity-Expert-Normal-Mode-for-1.10
