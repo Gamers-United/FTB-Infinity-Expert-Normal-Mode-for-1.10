@@ -1,0 +1,33 @@
+{"data":
+    [
+            {
+                "name": "EyeOfGalgador",
+				"rarity": "uncommon",
+				"enchanted": "true"
+            },
+			
+			{
+				"name": "RefinedHardener"
+			}, 
+
+			{
+				"name": "HardenedMesh"
+			},
+
+			{
+				"name": "StablizedMetal"
+			},
+
+			{
+				"name": "LargeLumpOfGalgador"
+			},
+
+			{
+			    "name": "EnchancedGalgadorianIngot"
+			},
+
+			{
+			    "name": "CertusQuartzWrench"
+			}
+    ]
+}
